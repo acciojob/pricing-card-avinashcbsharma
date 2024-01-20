@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+:root{
+    padding: 3%;
+    
+}
+#maincont{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.23);
+    display:flexbox;
+    flex-direction: column;    
+    height: 450px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    max-width: 30%;
+    background-color: rgb(241, 242, 240);
+    text-align: center;
+    border-radius: 2px;
+}
+p{
+    padding-inline: 20%;
+    font-size: larger; 
+    
+}
+button{
+    width:fit-content;
+    padding: 11px;    
+    font-size:x-large;
+    font-family:sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(222, 174, 110);
+    border: none;
+    border-radius: 15px;
+}
